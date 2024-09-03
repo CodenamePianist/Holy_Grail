@@ -6,3 +6,11 @@ body {
 h1 {
     align-self: center;
 }
+
+.main {
+    display: flex;
+}
+
+footer {
+    align-self: center;
+}
