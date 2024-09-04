@@ -3,3 +3,33 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+main {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: "header header header"
+                         "left-side content right-side"
+                         "footer footer footer";
+}
+
+.header {
+    grid-area: header;
+}
+
+.left-side {
+    grid-area: left-side;
+}
+
+.content {
+    grid-area: content;
+}
+
+.right-side {
+    grid-area: right-side;
+}
+
+.footer {
+    grid-area: footer;
+}
