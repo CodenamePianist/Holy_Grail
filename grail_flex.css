@@ -19,6 +19,9 @@ h1 {
     display: flex;
     flex: 1;
 }
+.left {
+    margin-left: 1rem;
+}
 
 p {
     margin: 3rem;
